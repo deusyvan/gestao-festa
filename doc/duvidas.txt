@@ -1,0 +1,14 @@
+ - No livro do spring vem uma nescessidade de configurar o pom.xml mudando a versão do thymeleaf,
+acredito que nesta versão do Spring Boot não há mais nescessidade.
+
+ - Existe uma configuração do application.properties:
+ 	spring.thymeleaf.mode=html
+ 	spring.thymeleaf.cache=false
+ 	Não é nescessário o spring.thymeleaf.mode=html por já ser o modo de templates
+ 	padrão, no caso seria nescessário para outros tipos como por exemplo: "jsp"?
+
+	
+	
+	
+	
+	# NO LIVRO: 3.8. Listando objetos com o Thymeleaf
